@@ -9,9 +9,10 @@
  * @param string filename
  */
 
-require_once '../src/WavePCM.php';
+require_once __DIR__ . '/../vendor/autoload.php';
 
-use \aerogus\WavePCM;
+use \Aerogus\WavePCM\WavePCM;
+use \Aerogus\WavePCM\WavePCMGenerator;
 
 if ($argc < 2) {
     $help = <<<'EOT'

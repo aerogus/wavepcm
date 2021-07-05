@@ -7,10 +7,10 @@
  * @author Guillaume Seznec <guillaume@seznec.fr>
  */
 
-require_once '../src/WavePCMGenerator.php';
+require_once __DIR__ . '/../vendor/autoload.php';
 
-use \aerogus\WavePCM;
-use \aerogus\WavePCMGenerator;
+use \Aerogus\WavePCM\WavePCM;
+use \Aerogus\WavePCM\WavePCMGenerator;
 
 define('WAV_FILE', 'test.wav');
 define('LENGTH', .5); // secondes
