@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace aerogus;
+namespace aerogus\WavePCM;
 
 require_once 'WavePCM.php';
 
