@@ -1,0 +1,24 @@
+{
+    "name": "aerogus/wavepcm",
+    "type": "library",
+    "description": "A Simple Wave PCM library",
+    "keywords": ["wave","riff","pcm","audio"],
+    "homepage": "https://github.com/aerogus/libwavepcm",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Guillaume Seznec",
+            "email": "guillaume@seznec.fr",
+            "homepage": "https://aerogus.net",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Aerogus\\Libwavepcm\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.4"
+    }
+}
