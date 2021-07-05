@@ -1,8 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace aerogus\WavePCM;
-
-require_once 'WavePCM.php';
+namespace Aerogus\WavePCM;
 
 /**
  * Générateur de forme d'onde

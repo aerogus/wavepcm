@@ -1,6 +1,6 @@
 <?php declare(strict_types=1);
 
-namespace aerogus\WavePCM;
+namespace Aerogus\WavePCM;
 
 /**
  * Analyseur/parser/writer d'un fichier RIFF WAVE PCM

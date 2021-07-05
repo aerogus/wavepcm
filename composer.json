@@ -15,7 +15,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Aerogus\\Libwavepcm\\": "src/"
+            "Aerogus\\WavePCM\\": "src/"
         }
     },
     "require": {
