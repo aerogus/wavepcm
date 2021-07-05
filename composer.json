@@ -3,7 +3,7 @@
     "type": "library",
     "description": "A Simple Wave PCM library",
     "keywords": ["wave","riff","pcm","audio"],
-    "homepage": "https://github.com/aerogus/libwavepcm",
+    "homepage": "https://github.com/aerogus/wavepcm",
     "license": "GPL-3.0-or-later",
     "authors": [
         {
