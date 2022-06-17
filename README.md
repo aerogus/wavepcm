@@ -18,9 +18,9 @@ exemple :
 #!/usr/bin/env php
 <?php
 
-require_once __DIR__ . 'vendor/autoload.php';
+require_once __DIR__ . '/vendor/autoload.php';
 
-use Aerogus\WavePCM\WavePCM;
+use \Aerogus\WavePCM\WavePCM;
 
 $wav = new WavePCM('example.wav');
 $wav->displayInfo();

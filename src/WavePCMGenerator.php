@@ -42,21 +42,21 @@ class WavePCMGenerator extends WavePCM
             'maxi' =>  32767,
         ],
         24 => [
-            'mini' =>      0,
-            'zero' =>      0,
-            'maxi' =>      0,
+            'mini' => 0,
+            'zero' => 0,
+            'maxi' => 0,
         ],
         32 => [
-            'mini' =>      0,
-            'zero' =>      0,
-            'maxi' =>      0,
+            'mini' => 0,
+            'zero' => 0,
+            'maxi' => 0,
         ]
     ];
 
     protected static $max_amplitude = .25;
 
     // génération dents de scie
-    const SAW_AMPLITUDE  = .8;  // en % d'amplitude max
+    const SAW_AMPLITUDE = .8;   // en % d'amplitude max
     const SAW_FREQUENCY = 4000; // en Hertz
 
     /**

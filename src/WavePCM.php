@@ -5,10 +5,9 @@ namespace Aerogus\WavePCM;
 /**
  * Analyseur/parser/writer d'un fichier RIFF WAVE PCM
  *
- * $wav = WavePCM::loadFile('filename.wav);
+ * $wav = WavePCM::loadFile('filename.wav');
  * $wav->displayInfo();
  *
- * $wav = new WavePCM(48000, 16, 2);
  * Usage :
  * $wav = new WavePCM('filename.wav');
  * $wav->setFormat(WavePCM::WAVE_FORMAT_PCM);
