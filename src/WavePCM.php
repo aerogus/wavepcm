@@ -281,7 +281,7 @@ class WavePCM
                 $this->sampleRate       = (int) unpack('V', substr($buffer, 24, 4))[1];
                 $this->bitsPerSample    = (int) unpack('v', substr($buffer, 34, 2))[1];
                 $this->subChunkDataSize = (int) unpack('V', substr($buffer, 40, 4))[1];
-                $this->numSamplesBlocks = $this->subChunkDataSize / $this->getSampleBlockSize();
+                $this->numSamplesBlocks = (int) floor($this->subChunkDataSize / $this->getSampleBlockSize());
                 $this->numSamples       = $this->numSamplesBlocks * $this->numChannels;
                 $this->duration         = $this->numSamplesBlocks / $this->sampleRate;
 
